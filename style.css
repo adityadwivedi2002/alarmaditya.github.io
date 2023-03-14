@@ -1,0 +1,68 @@
+body{
+    font-family: monospace , sans-serif;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 30em;
+    margin:  0 auto;
+    padding: 20px;
+    background-color:#0278e7;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    box-sizing: border-box;
+    background-color: rgb(251, 255, 24);
+    color: black;
+}
+
+#myBox{
+    width: 100%;
+    box-sizing: border-box;
+    border: 5px solid #969d99;
+    height: 380px;
+    /* border: 5%; */
+    padding-top: 85px;
+    margin-top: 90px;
+    background-color: #fcff30;
+}
+
+#time{
+    font-size: 65px;
+    margin-top: -65px;
+}
+
+h3{
+    color: #df0416;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+#alarmHrs,
+#alarmMins,
+#alarmSecs,
+#mySelect{
+    width: 100px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+button{
+    width: 100px;
+    background-color: #000000;
+    color: rgb(232, 255, 29);
+    padding: 14px 10px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b4b4b7;
+}
